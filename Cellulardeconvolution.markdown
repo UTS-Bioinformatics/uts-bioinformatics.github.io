@@ -1,3 +1,5 @@
+# Cellular deconvolution
+
 Cellular deconvolution involves determining the original composition of a samples that have been used for microarray or RNA-Sequencing. It does by using markers genes determined from single cell sequencing. The accuracy of the deconvolution is dependent on the how good the original single cell Sequencing dataset is and in many cases the cell type trying to be determined. In this workshop we will be using deconvolution matrixes made from currently the largest single cell sequencing atlas created by the [HLCA](https://github.com/LungCellAtlas/HLCA), which was recently published in Nature Medicine (PMID: [37291214](https://pubmed.ncbi.nlm.nih.gov/37291214/)).
 
 ## Downloading the deconvolution matrixes 
