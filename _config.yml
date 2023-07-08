@@ -22,7 +22,7 @@ title: RBMB research group
 author: A. Faiz
 # email: alen.faiz@uts.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
-  Respiratory Bioinformatics and Molecular Biology at UTS, Sydney
+  RBMB Research Group at UTS, Sydney
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
@@ -46,6 +46,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+include:
+  - _pages
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
@@ -57,3 +59,18 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Collections
+collections_dir: "contents"
+collections:
+  drafts:
+    output: false
+  posts:
+    output: true
+  workshops:
+    output: false
+
+
+timezone: Australia/Sydney
+

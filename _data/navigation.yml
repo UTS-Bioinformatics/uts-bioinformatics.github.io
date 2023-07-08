@@ -1,0 +1,16 @@
+# main links links
+main:
+  # - title: "Home"
+  #   url: /
+
+  - title: "Meet the Team"
+    url: /meet-the-team/
+
+  - title: "Projects"
+    url: /research-projects/
+
+  - title: "Workshops"
+    url: /workshops/
+
+  - title: "Publications"
+    url: /publications/
