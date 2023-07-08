@@ -4,7 +4,9 @@ layout: page
 
 {% for workshop in site.workshops reversed %}
   {% unless workshop.published == false %}
-    {{ workshop.date | date: "%Y-%m-%d" }} <a href="{{ workshop.url | relative_url }}">{{ workshop.title | escape }}</a>
+    <!--{{ workshop.date | date: "%Y-%m-%d" }} <a href="{{ workshop.url | relative_url }}">{{ workshop.title | escape }}</a>
+    [{{ site | inspect }}]-->
+    <h1>{{ workshop.title }}</h1>
     {{ workshop.content | markdownify }}
   {% endunless %}
 {% endfor %}
