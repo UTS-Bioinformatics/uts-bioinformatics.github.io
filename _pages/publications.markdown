@@ -37,7 +37,7 @@ $.ajax(RSS_URL, {
           </article>
         `;
 
-        document.getElementById("rss_publications").insertAdjacentHTML("afterend", template);
+        document.getElementById("rss_publications").insertAdjacentHTML("beforebegin", template);
       });
     document.getElementById("rss_publications").remove();
   }
