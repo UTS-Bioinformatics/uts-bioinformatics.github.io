@@ -68,7 +68,10 @@ collections:
     output: false
   posts:
     output: true
+    permalink: /blog/:year/:month/:day/:title:output_ext
   workshops:
+    output: true
+  team_members:
     output: false
 
 

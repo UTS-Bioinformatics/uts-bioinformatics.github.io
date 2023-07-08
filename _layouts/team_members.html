@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign roles = "Principal Investigator, Post-Doc, PhD-Students, Research Assistants, Alumni" | split: ", " %}
+{% for role in roles %}
+  <h2>{{ role }}</h2>
+  {% include team_member_list.html %}
+  <br />
+{% endfor %}

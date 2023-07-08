@@ -1,0 +1,8 @@
+
+{% assign role_members = site.team_members | where: "role", role | reversed %}
+{% for team_member in role_members %}
+  {% unless team_member.published == false %}
+    <h1>{{ team_member.title }}</h1>
+    {{ team_member.content | markdownify }}
+  {% endunless %}
+{% endfor %}

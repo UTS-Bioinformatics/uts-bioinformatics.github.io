@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: team_members
 title: Meet the Team
 permalink: /meet-the-team/
 ---
-
+<!--
 ## Leader
 Alen Faiz
 
@@ -30,3 +30,4 @@ Kyle Kovacs (Bioinformatics Cluster Center of Inflammation)
 
 ## Alumni
 Diren Reddy
+-->
