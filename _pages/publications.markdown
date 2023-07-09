@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publications/
+permalink: /publications.html
 ---
 
 <div id="rss_publications">Loading publications...</div>

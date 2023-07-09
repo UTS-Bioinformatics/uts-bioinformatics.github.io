@@ -1,5 +1,5 @@
 ---
 layout: workshops
 title: Workshops
-permalink: /workshops/
+permalink: /workshops.html
 ---

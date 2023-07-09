@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
+permalink: /blog.html
 ---
 
 Here you can find all of our blog posts.
