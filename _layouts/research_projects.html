@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% for research_project in site.research_projects %}
+  <h2>{{ research_project.title }}</h2>
+  {{ research_project.short }}
+  <a href="{{ research_project.url }}" />More...</a>
+  <br /><br />
+{% endfor %}

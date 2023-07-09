@@ -69,10 +69,12 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title:output_ext
-  workshops:
+  research_projects:
     output: true
   team_members:
     output: false
+  workshops:
+    output: true
 
 
 timezone: Australia/Sydney
