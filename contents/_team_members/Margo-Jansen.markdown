@@ -6,4 +6,5 @@ role: "PhD-Students"
 image: "/assets/img/people/margo-jansen.jpg"
 institute: "UTS"
 linkedin: https://www.linkedin.com/in/margo-jansen-45270b121/
+co_supervised: true
 ---

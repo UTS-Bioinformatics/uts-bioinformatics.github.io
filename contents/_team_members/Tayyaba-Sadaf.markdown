@@ -6,4 +6,5 @@ role: "PhD-Students"
 image: "/assets/img/people/tayyaba-sadaf.jpg"
 institute: "UTS"
 linkedin: https://www.linkedin.com/in/tayyaba-sadaf-1ab9061b3/
+co_supervised: true
 ---

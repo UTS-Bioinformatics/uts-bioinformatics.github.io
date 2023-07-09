@@ -6,4 +6,5 @@ role: "PhD-Students"
 image: "/assets/img/people/hao-chen.jpg"
 institute: "UTS"
 linkedin: https://www.linkedin.com/in/haochen1997/
+co_supervised: true
 ---
