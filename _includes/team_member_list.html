@@ -1,8 +1,25 @@
 
 {% assign role_members = site.team_members | where: "role", role | reversed %}
+<div class="role_members">
 {% for team_member in role_members %}
   {% unless team_member.published == false %}
-    <h1>{{ team_member.title }}</h1>
-    {{ team_member.content | markdownify }}
+    <div class="team_member">
+      {% unless team_member.image == "none" %}
+        <img src="{{ team_member.image }}" />
+      {% endunless %}
+      <div class="content">
+        <h1>{{ team_member.title }}</h1>
+        {% if team_member.institute %}
+          <em>Institute: {{ team_member.institute }}</em><br \>
+        {% endif %}
+        {{ team_member.content | markdownify }}
+        {% if team_member.linkedin %}
+          <a href="{{ team_member.linkedin }}" target="_blank">
+            <img class="linkedin" src="/assets/img/logos/linkedin-icon.png" alt="LinkedIn profile" />
+          </a>
+        {% endif %}
+      </div>
+    </div>
   {% endunless %}
 {% endfor %}
+</div>

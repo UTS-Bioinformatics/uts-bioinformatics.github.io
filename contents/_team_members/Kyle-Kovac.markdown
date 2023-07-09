@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Kyle Kovacs"
-date: 2018-09-01 00:00:00 +0100
+date: 2023-01-01 00:00:00 +0100
 role: "Research Assistants"
-image: "none"
+image: "/assets/img/people/kyle-kovacs.jpeg"
 institute: "Bioinformatics Cluster Center of Inflammation"
 ---

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Rashad Mahbub"
-date: 2018-09-01 00:00:00 +0100
+date: 2022-01-01 00:00:00 +0100
 role: "PhD-Students"
-image: "none"
+image: "/assets/img/people/rashad-mahbub.jpg"
 institute: "UTS"
+linkedin: https://www.linkedin.com/in/rashadmahbub/
 ---
