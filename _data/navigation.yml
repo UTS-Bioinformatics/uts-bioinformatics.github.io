@@ -6,8 +6,8 @@ main:
   - title: "Meet the Team"
     url: /meet-the-team.html
 
-  - title: "Projects"
-    url: /research-projects.html
+  # - title: "Projects"
+  #   url: /research-projects.html
 
   - title: "Workshops"
     url: /workshops.html
