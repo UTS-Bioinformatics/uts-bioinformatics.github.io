@@ -42,4 +42,13 @@ Cellular deconvolution involves determining the original composition of a sample
 
 14)	Finally, press the blue button "Run"
 
-15)	Download the outputfile 
+15)	Download the outputfile
+
+
+## Preparing your own files 
+
+16)	Download and install [R](https://cibersortx.stanford.edu/)
+
+17)	Download and install [Rstudio](https://posit.co/download/rstudio-desktop/)
+
+18)	Download the file converter App  
