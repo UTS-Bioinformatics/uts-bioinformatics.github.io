@@ -12,7 +12,7 @@ Cellular deconvolution involves determining the original composition of a sample
 
 
 ## Formatting your counts file
-2)	We have developed an application that can be used to help format your data correctly for conducting cellular deconvolution or you can organise your data manually. An example of the file can be seen [HERE](/assets/data/2023-07-10-mixture.tsv) (source: [GSE178807](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178807), by [Ana I Hernández Cordero et al.](https://doi.org/10.1164/rccm.202106-1440OC)). Next open the shiny App.
+2)	We have developed an application that can be used to help format your data correctly for conducting cellular deconvolution or you can organise your data manually. An example of the file can be seen [HERE](/assets/data/2023-07-10-mixture.tsv) (source: [GSE178807](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178807), by [Ana I Hernández Cordero et al.](https://doi.org/10.1164/rccm.202106-1440OC)). 
 
 
 ## CIBERSORTx uploading files
@@ -42,8 +42,4 @@ Cellular deconvolution involves determining the original composition of a sample
 
 14)	Finally, press the blue button "Run"
 
-
-## Analysing the results 
-15)	Download the outputfile and upload it to the Shiny App under the deconvolution tab.
-
-16)	Here determine which samples will go in which groups. Select if you would like a paired or unpaired test and the select run.   
+15)	Download the outputfile 
