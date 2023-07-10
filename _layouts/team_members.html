@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-{% assign roles = "Principal Investigator, Post-Doc, PhD-Students, Research Assistants, Alumni" | split: ", " %}
+{% assign roles = "Principal Investigator, Post-Doc, PhD-Students, Research Assistants, Honours Students, Students, Alumni" | split: ", " %}
 {% for role in roles %}
   <h2>{{ role }}</h2>
   {% include team_member_list.html %}
