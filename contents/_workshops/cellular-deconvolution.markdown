@@ -7,6 +7,10 @@ date: 2023-07-10 00:00:00 +0100
 
 The recording for the workshop can be found [here](https://youtu.be/l5Cl0Y6O6hQ)
 
+## Human Lung Cell Atlas
+
+To access the dataset go to [HLCA](https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293) 
+
 Cellular deconvolution involves determining the original composition of a samples that have been used for microarray or RNA-Sequencing. It does by using markers genes determined from single cell sequencing. The accuracy of the deconvolution is dependent on the how good the original single cell Sequencing dataset is and in many cases the cell type trying to be determined. In this workshop we will be using deconvolution matrixes made from currently the largest single cell sequencing atlas created by the [HLCA](https://github.com/LungCellAtlas/HLCA), which was recently published in Nature Medicine (PMID: [37291214](https://pubmed.ncbi.nlm.nih.gov/37291214/)).
 
 
