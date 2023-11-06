@@ -1,1 +1,44 @@
+---
+layout: default
+title: "Cellular deconvolution"
+date: 2023-07-10 00:00:00 +0100
+---
+# Human Lung Cell Atlas
+
+1) Go to [HLCA](https://cellxgene.cziscience.com/collections/6f6d381a-7701-4781-935c-db10d30de293) 
+
+4)	Once logged in on the pulldown menu select Upload Files. We need to upload two files the deconvolution matrix from the HLCA and your expression file. First press the green button “+ add files” and find the deconvolution matrix from the HLCA that you would like to select. Give the file the title “HLCA” and select the File Type “Signature matrix file”.
+
+5)	Next add another file by pressing the green button “+ add files”.  Now find your CPM normalised expression file. Give the file the title “expression” and select the File Type “Mixture”.
+
+6)	Now press the blue “start upload” button next the add file button.  
+
+
+## Running CIBERSORTx
+7)	Go to the menu and select Run CIBERSORTx
+
+8)	For the Select Analysis Module: click “2. Impute Cell Fractions”
+
+9)	For the Select Analysis Mode: click “Custom”
+
+10)	For the Signature matrix file select your file called “HLCA”
+
+11)	For the Mixture file select your file called “expression”
+
+12)	Leave the next three options as default if you are using RNA-Seq data
+
+13)	For Permutations for significance analysis select 100
+
+14)	Finally, press the blue button "Run"
+
+15)	Download the outputfile
+
+
+## Preparing your own files 
+
+16)	Download and install [R](https://cibersortx.stanford.edu/)
+
+17)	Download and install [Rstudio](https://posit.co/download/rstudio-desktop/)
+
+18)	Download the file converter App  
 
