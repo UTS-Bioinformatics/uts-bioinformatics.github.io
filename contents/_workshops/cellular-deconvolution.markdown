@@ -58,4 +58,7 @@ Cellular deconvolution involves determining the original composition of a sample
 
 17)	Download and install [Rstudio](https://posit.co/download/rstudio-desktop/)
 
-18)	Download the file converter App  
+18) Install edgeR
+
+19) Load your file and run the function cpm()
+
