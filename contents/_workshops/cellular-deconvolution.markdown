@@ -15,7 +15,7 @@ Cellular deconvolution involves determining the original composition of a sample
 
 
 ## Downloading the deconvolution matrixes 
-1)	First we will need to download the deconvolution matrixes from the LungCellAtlas paper. You can download it from the manuscript under “Supplementary Table 10” or you can click the following [LINK](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10287567/bin/41591_2023_2327_MOESM6_ESM.zip). You will need to unzip the file and save them somewhere on your desktop. The next steps will depend on which matrix you would like to use and the format of your data. We have also provided a new deconvolution matrix for ALI [LINK](/assets/data/Ali_Decon_ref_matrix.txt). 
+1)	First we will need to download the deconvolution matrixes from the LungCellAtlas paper. You can download it from the manuscript under “Supplementary Table 10” or you can click the following [LINK](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10287567/bin/41591_2023_2327_MOESM6_ESM.zip). You will need to unzip the file and save them somewhere on your desktop. The next steps will depend on which matrix you would like to use and the format of your data. We have also provided a new deconvolution matrix for ALI [LINK](/assets/data/Ali_Decon_ref_matrix.tsv). 
 
 
 ## Formatting your counts file
