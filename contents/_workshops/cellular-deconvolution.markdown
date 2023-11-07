@@ -19,7 +19,7 @@ Cellular deconvolution involves determining the original composition of a sample
 
 
 ## Formatting your counts file
-2)	We have developed an application that can be used to help format your data correctly for conducting cellular deconvolution or you can organise your data manually. An example of the file for the airways can be seen [HERE](/assets/data/2023-07-10-mixture.tsv) (source: [GSE178807](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178807), by [Ana I Hernández Cordero et al.](https://doi.org/10.1164/rccm.202106-1440OC)), while a sample file for the ALI can be seen [HERE](assets/data/GSE146795_cpm.tsv), by [Talukdar SN et al.](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE146795).
+2)	We have developed an application that can be used to help format your data correctly for conducting cellular deconvolution or you can organise your data manually. An example of the file for the airways can be seen [HERE](/assets/data/2023-07-10-mixture.tsv) (source: [GSE178807](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178807), by [Ana I Hernández Cordero et al.](https://doi.org/10.1164/rccm.202106-1440OC)), while a sample file for the ALI can be seen [HERE](assets/data/GSE146795_cpm.tsv), (source: [GSE146795](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE146795)) by [Talukdar SN et al.](https://pubmed.ncbi.nlm.nih.gov/36746339/).
 
 
 ## CIBERSORTx uploading files
