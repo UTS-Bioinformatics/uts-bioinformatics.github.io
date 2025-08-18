@@ -7,4 +7,5 @@ image: "/assets/img/people/diren-reddy.jpeg"
 institute: "UTS (former)"
 linkedin: https://www.linkedin.com/in/diren-reddy/
 co_supervised: true
+---
 Former PhD student in the group, now a Post Doc at UKSH Lübeck.
