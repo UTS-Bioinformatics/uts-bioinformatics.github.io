@@ -8,9 +8,6 @@ institute: "UTS"
 linkedin: https://www.linkedin.com/in/Andy-Lan/
 co_supervised: false
 ---
-Andy Lan completed his Bachelor’s degree in Biology and Medical Laboratory Research at the Hanzehogeschool Groningen, University of Applied Sciences, before pursuing a Master’s degree in Biomedical Sciences (Neuroscience, Research track) at the University of Groningen. During this time, he gained valuable experience within a multidisciplinary team at the University Medical Center Groningen, where collaboration between clinical, epidemiological, and molecular researchers shaped his appreciation for translating scientific knowledge to patient outcomes.
+Andy Lan completed a Bachelor’s degree at Hanzehogeschool Groningen, University of Applied Sciences, and a Master’s in Biomedical Sciences at the University of Groningen. His research experience spans wet laboratory work and bioinformatics, with a strong focus on translating scientific findings into patient outcomes. During his time at the University Medical Center Groningen, he gained valuable experience collaborating with clinical, epidemiological, and molecular researchers, which deepened his interest in bridging science and medicine.
 
-He is currently undertaking a PhD at the University of Technology Sydney, focusing on the epigenetic and molecular mechanisms underlying asthma. His research integrates genomic, transcriptomic, and epigenomic approaches to characterise asthma endotypes and improve understanding of disease progression and treatment response.
-
-Projects
-Andy’s work explores epigenetic differences in asthma with a focus on DNA methylation, strategies to uncover mechanisms driving the T2-low asthma endotype, the molecular basis of corticosteroid sensitivity with emphasis on FKBP5, and how early- versus late-onset asthma is reflected in both clinical and genomic contexts.
+Andy is now a PhD candidate at the University of Technology Sydney, where his research investigates the epigenetic regulation of asthma. Andy's projects focuses on DNA methylation in asthma, mechanisms of T2-low asthma, corticosteroid sensitivity through FKBP5, and clinical and genomic differences between early- and late-onset asthma.
