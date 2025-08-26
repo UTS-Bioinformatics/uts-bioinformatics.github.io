@@ -4,18 +4,103 @@
 
 @import "minima";
 
-/* RBMB custom styles */
-.rbmb-grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:2rem;align-items:start}
-.rbmb-main{min-width:0}
-.rbmb-aside{position:sticky;top:16px}
+/* ===========================
+   RBMB custom styles
+   =========================== */
 
-.rbmb-aside-card{border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#fff}
-.rbmb-aside-title{margin:0 0 .5rem 0;font-size:1.05rem;font-weight:600}
-
-@media (max-width: 992px){
-  .rbmb-grid{grid-template-columns:1fr}
-  .rbmb-aside{position:static;margin-top:1rem}
+/* --- Meet-the-Team two-column layout (works with Minima wrappers) --- */
+.page-content .wrapper > .rbmb-grid,
+.post-content .wrapper > .rbmb-grid,
+.wrapper > .rbmb-grid,
+.rbmb-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px; /* main | sidebar */
+  gap: 2rem;
+  align-items: start;
 }
 
-/* optional: tidy team member images */
-.role_members .team_member img{max-width:120px;height:auto;border-radius:8px}
+.rbmb-main { min-width: 0; }
+
+.rbmb-aside {
+  position: sticky;
+  top: 16px;
+  align-self: start;
+}
+
+/* Sidebar card */
+.rbmb-aside-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px;
+  background: #fff;
+}
+.rbmb-aside-title {
+  margin: 0 0 .5rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Make SociableKIT widgets respect the sidebar width */
+.rbmb-aside .sk-ww-linkedin-page-posts,
+.rbmb-aside .sk-ww-linkedin-page-post,
+.rbmb-aside iframe,
+.rbmb-aside [style*="width:"] {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* Optional: a sensible default height if your embed is an iframe */
+.rbmb-aside iframe { height: 650px; }
+
+/* Mobile: stack columns so nothing overlaps */
+@media (max-width: 992px) {
+  .page-content .wrapper > .rbmb-grid,
+  .post-content .wrapper > .rbmb-grid,
+  .wrapper > .rbmb-grid,
+  .rbmb-grid {
+    grid-template-columns: 1fr;
+  }
+  .rbmb-aside {
+    position: static;
+    margin-top: 1rem;
+  }
+}
+
+/* --- Optional: tidy team member cards --- */
+.role_members {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+.role_members .team_member {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  background: #fff;
+}
+.role_members .team_member img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+.role_members .team_member .content h1 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.15rem;
+}
+.role_members .team_member .linkedin {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: .25rem;
+}
+
+@media (max-width: 640px) {
+  .role_members .team_member { grid-template-columns: 1fr; }
+  .role_members .team_member img { max-width: 100%; }
+}
