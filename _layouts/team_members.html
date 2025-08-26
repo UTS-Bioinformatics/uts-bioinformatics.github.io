@@ -2,11 +2,21 @@
 layout: page
 ---
 
-{{ content }}
+<div class="rbmb-grid">
+  <div class="rbmb-main">
 
-{% assign roles = "Principal Investigator, Post-Doc, PhD-Students, Research Assistants, Honours Students, Master (by Research) Students, Alumni" | split: ", " %}
-{% for role in roles %}
-  <h2>{{ role }}</h2>
-  {% include team_member_list.html %}
-  <br />
-{% endfor %}
+    {{ content }}
+
+    {% assign roles = "Principal Investigator, Post-Doc, PhD-Students, Research Assistants, Honours Students, Master (by Research) Students, Alumni" | split: ", " %}
+    {% for role in roles %}
+      <h2 id="{{ role | downcase | replace: ' ', '-' }}">{{ role }}</h2>
+      {% include team_member_list.html %}
+      <br />
+    {% endfor %}
+
+  </div>
+
+  <div class="rbmb-aside">
+    {% include linkedin-feed.html %}
+  </div>
+</div>
