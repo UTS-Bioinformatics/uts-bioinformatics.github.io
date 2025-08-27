@@ -51,8 +51,9 @@
   display: block;
 }
 
-/* Optional: a sensible default height if your embed is an iframe */
-.rbmb-aside iframe { height: 650px; }
+/* Let the iframe’s inline height win, fall back to a sensible minimum */
+.rbmb-aside iframe { min-height: 650px; height: auto; }
+grid-template-columns: minmax(0,1fr) 380px; /* or 400–420px */
 
 /* Mobile: stack columns so nothing overlaps */
 @media (max-width: 992px) {
