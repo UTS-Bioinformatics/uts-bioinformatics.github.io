@@ -133,6 +133,15 @@
   }
 }
 
+/* Homepage hero photo: span full text width */
+.home .home-hero {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1rem 0;  /* a little breathing room below the photo */
+  border-radius: 8px;  /* optional: remove if you prefer sharp corners */
+}
+
 .role_members .team_member img.linkedin {
   height: 16px;
   width: auto;      /* preserve aspect ratio */
