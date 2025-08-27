@@ -52,8 +52,8 @@
 }
 
 /* Let the iframe’s inline height win, fall back to a sensible minimum */
-.rbmb-aside iframe { min-height: 650px; height: auto; }
-grid-template-columns: minmax(0,1fr) 420px; /* or 400–420px */
+.rbmb-aside iframe { min-height: 450px; height: auto; }
+grid-template-columns: minmax(0,1fr) 650px; /* or 400–420px */
 
 /* Mobile: stack columns so nothing overlaps */
 @media (max-width: 992px) {
