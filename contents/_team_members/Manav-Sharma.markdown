@@ -8,4 +8,4 @@ institute: "UTS"
 linkedin: https://www.linkedin.com/in/manav-vikram/
 co_supervised: false
 ---
-Former Honours student in the group, now a PhD student.
+Former Honours student in the group, a PhD student now.
