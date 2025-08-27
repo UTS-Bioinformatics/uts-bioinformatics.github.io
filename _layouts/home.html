@@ -2,17 +2,24 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-  {%- else if page.hiddentitle -%}
-    <header class="post-header">
-      <h1 class="post-title">{{ page.hiddentitle }}</h1>
-    </header>
-  {%- endif -%}
+<div class="rbmb-grid">
+  <div class="rbmb-main">
+    <div class="home">
+      {%- if page.title -%}
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+      {%- else if page.hiddentitle -%}
+        <header class="post-header">
+          <h1 class="post-title">{{ page.hiddentitle }}</h1>
+        </header>
+      {%- endif -%}
 
-  {{ content }}
+      {{ content }}
+    </div>
+  </div>
 
+  <div class="rbmb-aside">
+    {% include linkedin-feed.html %}
+  </div>
 </div>
