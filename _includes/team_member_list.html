@@ -5,7 +5,7 @@
   {% unless team_member.published == false %}
     <div class="team_member">
       {% unless team_member.image == "none" %}
-        <img src="{{ team_member.image }}" />
+        <img class="tm-photo" src="{{ team_member.image | relative_url }}" alt="{{ team_member.title }} headshot" loading="lazy" decoding="async" />
       {% endunless %}
       <div class="content">
         <h1>{{ team_member.title }}</h1>
