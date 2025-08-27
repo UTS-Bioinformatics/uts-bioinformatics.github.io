@@ -99,14 +99,21 @@
 }
 
 /* Prefer the .tm-photo class; also support existing markup as a fallback */
-.tm-photo,
-.role_members .team_member img {
+.tm-photo {
   width: 120px;
   min-width: 120px;    /* keeps image visible on narrow screens */
   height: auto;
   display: block;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.role_members .team_member .linkedin {
+  width: 16px;
+  height: 16px;
+  min-width: 0;           /* ensure no inherited min-width */
+  vertical-align: middle;
+  margin: 0;
 }
 
 .role_members .team_member .content {
@@ -118,13 +125,6 @@
 .role_members .team_member .content h1 {
   margin: 0 0 .25rem 0;
   font-size: 1.15rem;
-}
-
-.role_members .team_member .linkedin {
-  width: 8px;
-  height: 8px;
-  vertical-align: middle;
-  margin: 0;
 }
 
 /* Stack on small screens; photo above text, not squeezed */
