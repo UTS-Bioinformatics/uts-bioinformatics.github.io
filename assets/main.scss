@@ -121,10 +121,9 @@
 }
 
 .role_members .team_member .linkedin {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-  margin-top: .25rem;
+  height: 1em;
+  width: auto;
+  vertical-align: text-bottom;
 }
 
 /* Stack on small screens; photo above text, not squeezed */
