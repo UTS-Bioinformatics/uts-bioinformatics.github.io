@@ -8,7 +8,16 @@
    RBMB custom styles
    =========================== */
 
-/* --- Meet-the-Team two-column layout (works with Minima wrappers) --- */
+/* -- Make pages that use our .rbmb-grid span full width inside Minima -- */
+.page-content .wrapper:has(.rbmb-grid),
+.post-content .wrapper:has(.rbmb-grid),
+.wrapper:has(.rbmb-grid) {
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* --- Two-column layout (used on homepage) --- */
 .page-content .wrapper > .rbmb-grid,
 .post-content .wrapper > .rbmb-grid,
 .wrapper > .rbmb-grid,
@@ -51,9 +60,8 @@
   display: block;
 }
 
-/* Let the iframe’s inline height win, fall back to a sensible minimum */
-.rbmb-aside iframe { min-height: 450px; height: auto; }
-grid-template-columns: minmax(0,1fr) 650px; /* or 400–420px */
+/* iFrame height: let inline height win but keep a sensible minimum */
+.rbmb-aside iframe { min-height: 650px; height: auto; }
 
 /* Mobile: stack columns so nothing overlaps */
 @media (max-width: 992px) {
@@ -69,31 +77,49 @@ grid-template-columns: minmax(0,1fr) 650px; /* or 400–420px */
   }
 }
 
-/* --- Optional: tidy team member cards --- */
+/* ===========================
+   Team members (responsive)
+   =========================== */
+
 .role_members {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
 }
+
 .role_members .team_member {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 120px minmax(0, 1fr); /* photo column cannot collapse */
   gap: 1rem;
   padding: 1rem;
   border: 1px solid #f0f0f0;
   border-radius: 10px;
   background: #fff;
+  align-items: start;
 }
+
+/* Prefer the .tm-photo class; also support existing markup as a fallback */
+.tm-photo,
 .role_members .team_member img {
-  max-width: 120px;
+  width: 120px;
+  min-width: 120px;    /* keeps image visible on narrow screens */
   height: auto;
-  border-radius: 8px;
   display: block;
+  border-radius: 8px;
+  object-fit: cover;
 }
+
+.role_members .team_member .content {
+  min-width: 0;               /* allow text to shrink */
+  overflow-wrap: anywhere;    /* break long words/URLs */
+  word-break: break-word;
+}
+
 .role_members .team_member .content h1 {
   margin: 0 0 .25rem 0;
   font-size: 1.15rem;
 }
+
 .role_members .team_member .linkedin {
   width: 20px;
   height: 20px;
@@ -101,7 +127,16 @@ grid-template-columns: minmax(0,1fr) 650px; /* or 400–420px */
   margin-top: .25rem;
 }
 
-@media (max-width: 640px) {
-  .role_members .team_member { grid-template-columns: 1fr; }
-  .role_members .team_member img { max-width: 100%; }
+/* Stack on small screens; photo above text, not squeezed */
+@media (max-width: 680px) {
+  .role_members .team_member {
+    grid-template-columns: 1fr;
+  }
+  .tm-photo,
+  .role_members .team_member img {
+    width: 100%;
+    max-width: 260px;  /* nice size for headshots on phones */
+    min-width: 0;      /* allow natural scaling */
+    justify-self: start;
+  }
 }
