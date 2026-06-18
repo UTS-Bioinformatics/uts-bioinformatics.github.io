@@ -14,3 +14,6 @@ main:
 
   - title: "Publications"
     url: /publications.html
+
+  - title: "Packages"
+    url: /packages.html
