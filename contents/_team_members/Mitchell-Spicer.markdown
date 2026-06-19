@@ -8,4 +8,4 @@ institute: "UTS"
 linkedin: https://www.linkedin.com/in/mitchell-spicer/
 co_supervised: false
 ---
-Mitchell's projects primarily focus on respiratory diseases, specifically viral and mTOR-related diseases, making use of his specialties in bioinformatics and CRISPR-Cas9 gene editing techniques to do so. He is thrilled to be applying his passion for discovery through his PhD.
+Mitchell is a second-year PhD candidate who is currently working on respiratory projects with a primary focus on viral and mTOR-related diseases, making use of his specialties in bioinformatics and CRISPR-Cas9 gene editing techniques to do so. Another focus of his PhD degree is to construct a single-cell Air-Liquid Interface (ALI) atlas. He is thrilled to be applying his passion for learning and discovery through his PhD.
