@@ -2,7 +2,7 @@
 layout: default
 title: "Mitchell Spicer"
 date: 2023-03-01 00:00:00 +0100
-role: "PhD-Students"
+role: "PhD Students"
 image: "/assets/img/people/mitchell_spicer.jpg"
 institute: "UTS"
 linkedin: https://www.linkedin.com/in/mitchell-spicer/
