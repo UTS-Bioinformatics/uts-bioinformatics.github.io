@@ -5,6 +5,6 @@ date: 2019-03-01 00:00:00 +0100
 role: "Honours Students"
 image: ""
 institute: "UTS"
-linkedin: https://www.linkedin.com/in/Athena-Shandil/
+linkedin: https://www.linkedin.com/in/Athena-Shandil/](https://au.linkedin.com/in/nidhi-athena-shandil
 co_supervised: false
 ---
