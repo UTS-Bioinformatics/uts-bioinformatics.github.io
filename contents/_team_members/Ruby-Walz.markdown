@@ -3,7 +3,7 @@ layout: default
 title: "Ruby Walz"
 date: 2024-03-01 00:00:00 +0100
 role: "PhD Students"
-image: "/assets/img/people/ruby_walz.jpeg"
+image: "/assets/img/people/ruby_w_2.jpeg"
 institute: "UTS"
 linkedin: https://www.linkedin.com/in/ruby-w-b89345228/
 co_supervised: False
