@@ -8,6 +8,6 @@ institute: "UTS"
 linkedin: https://www.linkedin.com/in/ruby-w-b89345228/
 co_supervised: False
 ---
-Ruby Walz holds a Bachelor of Forensic Science (Biology major) from UTS and completed her Honours in Medical Science also at UTS, with our RBMB group. Her honours project focusds on the gut-lung axis; exploring how genetic variation in COPD and asthma is linked to the gut microbiome. With a strong interest in human health and disease, she approaches research with curiosity and a problem-solving mindset. Outside of academia, Ruby enjoys staying active through open water swimming and strength training, and finds creative balance through her passion for the visual arts.
+Ruby holds a Bachelor of Forensic Science and a Bachelor of Medical Science (Honours, Class I) from UTS, where she completed her Honours research in the RBMB laboratory. Her work focused on the gut–lung axis, with particular emphasis on genetics associated with COPD and asthma. Now undertaking a PhD, Ruby continues to advance this research while also refining polygenic risk scores for COPD. 
 
-Ruby is now a first-year PhD student in RBMB, continuing her research in the gut microbiome of COPD and asthma. 
+Beyond academia, Ruby maintains a strong interest in the visual arts and literature, which provides a creative balance to her research pursuits.
